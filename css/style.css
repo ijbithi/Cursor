@@ -1,0 +1,133 @@
+/* Bootstrap icon start */
+.container {
+	font-size: 50px;
+	color: blue;
+
+}
+/* Bootstrap icon end */
+
+
+/* Css Cursor Start */
+
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.col-resize {cursor: col-resize;}
+.context-menu {cursor: context-menu;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+/* Css Cursor End */
+
+/* Animation Timing Start */
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+
+#div1 {animation-timing-function: linear;
+  width: 100px;
+  height: 50px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 4.2s infinite;
+
+}
+
+#div2 {animation-timing-function: ease;
+  width: 100px;
+  height: 50px;
+  background: yellowgreen;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 4s infinite;
+  
+}
+#div3 {animation-timing-function: ease-in;
+  width: 100px;
+  height: 50px;
+  background: yellow;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 3.50s infinite;
+}
+#div4 {animation-timing-function: ease-out;
+  width: 100px;
+  height: 50px;
+  background: greenyellow;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 3.1s infinite;
+}
+#div5 {animation-timing-function: ease-in-out;
+  width: 100px;
+  height: 50px;
+  background: green;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 4.1s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+
+#div6 {
+  animation-timing-function: cubic-bezier(0,0,1,1);
+  width: 200px;
+  height: 50px;
+  background: blueviolet;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+  
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+/* Animation Timing End */
